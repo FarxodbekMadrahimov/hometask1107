@@ -14,7 +14,7 @@ namespace MyLessons
 
         public void Add()
         {
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             Console.Write("firstName: ");
             string firstName = Console.ReadLine();
@@ -34,7 +34,7 @@ namespace MyLessons
 
         public void DeleteAll()
         {
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -52,7 +52,7 @@ namespace MyLessons
             Console.Write("Id: ");
             int name = int.Parse(Console.ReadLine());
 
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -70,7 +70,7 @@ namespace MyLessons
             Console.Write("Name: ");
             string name = Console.ReadLine();
 
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -83,7 +83,7 @@ namespace MyLessons
 
         public void GetAll()
         {
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -102,7 +102,7 @@ namespace MyLessons
 
         public void GetById()
         {
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -124,7 +124,7 @@ namespace MyLessons
 
         public void GetByName()
         {
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
@@ -152,7 +152,7 @@ namespace MyLessons
             Console.Write("UserId: ");
             int id = int.Parse(Console.ReadLine());
 
-            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=1234;Database=mydata;";
+            string connectionString = "Server=localhost;Port=5433;User Id=postgres;Password=ing0077K;Database=mydata;";
 
             var con = new NpgsqlConnection(connectionString);
 
